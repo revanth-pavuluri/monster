@@ -1,0 +1,526 @@
+						@font-face {
+    font-family: wf;
+    src: url(sans.ttf);
+  }
+  *{
+  	font-family: wf;
+  }
+html{
+	scroll-behavior: smooth;
+}
+
+		.top{
+			margin: auto;
+			
+		}
+		.top img{
+			margin: 4px;
+			margin-top: 23px; 
+		}
+		.top nav{
+			display: flex;
+		}
+		.top .bar{
+			width: 62%;
+			box-shadow: 0px 1px 6px rgba(0,0,0,0.1);
+			height: 51px;
+			border-radius: 7px;
+			margin: 10px;
+			border-radius: 1px #eee;
+			margin-left: 20px;
+			display: flex;
+			border: solid 1px #eee;
+			align-items: center;
+			padding:0 8px;
+		}
+		input{
+			border: none;
+			margin: 0 3px;
+			letter-spacing: 0.5px;
+		    padding: 5px 0;
+		    outline: none;
+		    font-size: 13.5px;
+		    margin: 0px 1rem 0px 0.5rem;
+		}
+		.eqHqnL {
+    width: 0rem;
+    height: 1.1rem;
+    margin:0 8px;
+    border: 0.05rem solid rgb(207, 207, 207);
+}
+.top .log{
+	display: flex;
+	padding-top: 5px;
+	margin-left: 40px;
+	}
+	.top .log p{
+		margin-left: 35px;
+		letter-spacing: 0.8;
+		
+		font-size: 18px;
+		color: #696969;
+	}
+
+	.types{
+		display: flex;
+		margin: auto;
+		margin-left: 5px;
+	}
+	.types .item{
+		padding: 20px 25px 10px 20px;
+		margin-right: 7PX;
+		margin-left: 0px;
+		display: flex;
+		
+	}
+	.types .item p{
+		font-size: 20px;
+
+    color: #696969;
+    
+    margin-left: 10px;
+	}
+	.types img{
+		width: 30px;
+		height: 30px;
+
+	}
+	.types .logo{
+	width: 60px;
+	height: 60px;
+    border-radius: 50%;
+    background: #F8F8F8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+	}
+
+
+body{
+	overflow-x: hidden;
+}
+		
+		@media(min-width: 968px){
+		#food-card{
+			height: auto;
+			background: white;
+			width: 30%;
+			margin-left: 1.4%;
+			margin-right: 1.4%;
+			margin-top: 50px;
+			display: inline-block;
+			border-radius: 10px;
+			overflow: hidden;
+		}
+		body{
+			margin: 0;
+			padding-left:  7%;
+			padding-right:  7%;
+			background: white;
+			font-family: wf;
+
+		}
+	}
+		
+
+		@media(max-width: 968px){
+			#food-card{
+			height: auto;
+			background: white;
+			width: 40%;
+			margin-left: 5%;
+			margin-right: 5%;
+			margin-top: 50px;
+			float: left;
+			border-radius: 10px;
+			overflow: hidden;
+		}
+		body{
+			margin: 0;
+			padding-left:  5%;
+			padding-right:  5%;
+			background: white;
+			font-family: wf;
+
+		}
+		.log{
+			display: none;
+		}
+	}
+	@media(max-width: 680px){
+			#food-card{
+			height: auto;
+			background: white;
+			width: 80%;
+			margin-left: 10%;
+			margin-right: 10%;
+			margin-top: 50px;
+			float: left;
+			border-radius: 10px;
+			overflow: hidden;
+		}
+		body{
+			margin: 0;
+			padding-left:  5%;
+			padding-right:  5%;
+			background: white;
+			font-family: wf;
+
+		}
+	}
+		#food-card .image{
+			width: 100%;
+			height: 38vh;
+			border-radius: 10px;
+			
+		}
+		#food-card .image .discount{
+			background: #0381F8;
+			width: 75px;
+			color: white;
+			position: relative;
+			left: 0%;
+			top: 80%;
+
+		}
+		#food-card .image img{
+			width: 100%;
+			height: auto;
+			border-radius: 10px;
+		}
+		#food-card .details{
+			padding: 10px;
+			line-height: 15px;
+		}
+		#food-card .details div{
+			float: top;
+		}
+		#food-card .details .food-name{
+			font-size: 20px;
+			color: #444;
+			font-weight: bold;
+
+		}
+		#food-card .details .rating{
+			color: grey;
+		}
+		#food-card .details .description{
+			color: grey;
+		}
+		
+		#food-card .details .price{
+			color: grey;
+		}
+		.options {
+			float: left;
+			line-height: 10px;
+		}
+		.other-opt p{color: grey}
+		.cities{
+			height: auto;
+			width: 100%;
+		}
+		.cities div{
+			display: inline-block;
+			width: 19%;
+		}
+		@media(max-width: 800px){
+			.cities div{
+				
+				width: 45%;
+			}
+			.cities .city-col3{
+				display: none;
+			}
+		}
+		.cities div p:hover{
+			color: black;
+		}
+		.other-opt a{
+			text-decoration: none;
+			color: grey;
+		}
+		.other-opt a:hover{
+			color: black;
+		}
+		.footer-content{
+			height: auto;
+			width: 116%;
+			margin-left: -8%; 
+			background: rgb(200,200,200,0.2);
+			padding-bottom: 10px;
+			
+		}
+		.footer-content div{
+			height: 100%;
+			width: 15%;
+			display: inline-block;
+		}
+		.footer-content div h4{
+			font-weight: bold;
+		}
+		.footer-content div  p{
+			color: grey;
+			font-size: 15px;
+		}
+		.footer-content div  p:hover{
+			color: black;
+			cursor: pointer;
+		}
+		@media(max-width: 978px){
+			.footer-content{
+				display: inline-block;
+			}
+			.footer-content div{
+			height: auto;
+			width: 60%;
+			transform: translateX(15%);
+
+		}
+		#copy{
+			transform: translateX(0%);
+			padding-left: 5%;
+			padding-right: 5%;
+		}
+		}
+.header {
+  padding: 5px 5px;
+  display: flex;
+  background: #fff;
+  z-index: 10000;
+}
+.header p{
+	padding: 8px;
+	margin-left: 0px;
+	border-radius: 5px;
+	margin-right: 15px;
+	border: 1px solid rgb(207, 207, 207);
+    color: rgb(156, 156, 156);
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgb(54 54 54 / 6%) 0px 1px 2px;
+    border-radius: 7px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    cursor: pointer;
+    height: 100%;
+    font-size: 14px;
+    letter-spacing: 0.6;
+}
+
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
+
+.pop{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 100000000000;
+	background: rgba(0,0,0,0.5);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.pop .cont{
+	width: 700px;
+	background: #fff;
+	border-radius: 5px;
+	height: auto;
+}
+.pop .cont .head,.foot{
+	padding: 20px;
+	font-size: 25px;
+}
+.pop .cont .head span{
+	float: right;
+} 
+.pop .cont .left{
+	margin-top: -8px;
+	width: 190px;
+	height: 450px;
+	color: #1C1C1C;
+	background: #F8F8F8;
+margin-bottom: -8px;
+}
+.pop .cont .right{
+	margin-left: 220px;
+	margin-top: -390px;
+	width: 400px;
+	height: 350px;
+}
+
+.pop .cont .left .items{
+	padding: 20px;
+	padding-bottom: 30px;
+	padding-left: 30PX;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+.pop .cont .left .items span{
+	font-size: 16px;
+	color: rgb(237, 90, 107);
+}
+.pop .cont .foot{
+margin-top: -8px;}
+.pop .cont .foot button{
+padding: 10px 25px;
+border-radius: 5px;
+margin-right: 15px;
+border:none;
+background: #FCFCFC;
+font-size: 16px;
+color: #1C1C1C;
+cursor: pointer;
+}
+.pop .cont .foot .b1{
+	background: border-box rgb(237, 90, 107);
+    border-color: rgb(237, 90, 107);
+    color: #FFFFFF;
+}
+/* The container */
+.conti {
+  display: block;
+  position: relative;
+  padding-left: 30px;
+  cursor: pointer;
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #1c1c1c;
+  font-size: 16px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.conti input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 17px;
+  width: 17px;
+  border: solid 1px #1c1c1c;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.conti:hover input ~ .checkmark {
+  border-color: rgb(237, 90, 107);
+}
+.conti input:checked ~ .checkmark {
+  border-color: rgb(237, 90, 107);
+}
+/* When the radio button is checked, add a blue background */
+.conti input:checked ~ .checkmark {
+  background-color: white;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.conti input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.conti .checkmark:after {
+ 	top: 4px;
+	left: 4px;
+	width: 9px;
+	height: 9px;
+	border-radius: 50%;
+	background: rgb(237, 90, 107);
+}
+
+.pop .cont .right .ser{
+	width: 400px;
+	border: solid 1px #eee;
+	padding: 10px 15px;
+	border-radius: 5px;
+}
+.pop .cont .right .ser input{
+	font-size: 17px;
+}
+
+
+
+
+
+/* Create a custom checkbox */
+.checkbox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  border-radius: 5px;
+  border:solid #eee;
+}
+
+
+/* On mouse-over, add a grey background color */
+.conti:hover input ~ .checkbox {
+  border-color: rgb(237, 90, 107);
+}
+.conti input:checked ~ .checkbox {
+  border-color: rgb(237, 90, 107);
+}
+/* When the checkbox is checked, add a blue background */
+.conti input:checked ~ .checkbox {
+  background-color: rgb(237, 90, 107);
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkbox:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.conti input:checked ~ .checkbox:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.conti .checkbox:after {
+  left: 6px;
+  top: 2px;
+  width: 4px;
+  height: 9px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.contii{width: 10px; float: left;margin-right: 150px;}
+.pop .cont .right .opt{
+	margin-top: 30px;
+}
